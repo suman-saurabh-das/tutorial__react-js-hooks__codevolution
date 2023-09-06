@@ -13,6 +13,11 @@ React-JS Hooks Tutorial - by Codevolution
 ## Course Content
 
 - Section 01
+  - Introduction to hooks
+  - useState Hook, useState hook with previous State
+  - useState Hook with Objects and Arrays
+
+- Section 02
 
 ## Technologies
 

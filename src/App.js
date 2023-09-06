@@ -5,7 +5,8 @@ import React from 'react'
 // import HookCounter1 from './components/Section 01/02_HookCounter1';
 // import ClassCounter2 from './components/Section 01/03_ClassCounter2';
 // import HookCounter2 from './components/Section 01/03_HookCounter2';
-import HookCounter3 from './components/Section 01/04_HookCounter3';
+// import HookCounter3 from './components/Section 01/04_HookCounter3';
+import HookCounter4 from './components/Section 01/05_HookCounter4';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
         {/* <ClassCounter2 /> */}
         {/* <HookCounter2 /> */}
 
-        <HookCounter3 />
+        {/* <HookCounter3 /> */}
+
+        <HookCounter4 />
       </>
     </div>
   );
