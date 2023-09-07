@@ -9,8 +9,10 @@ import React from 'react'
 // import HookCounter4 from './components/Section 01/05_HookCounter4';
 
 /* -------------------- Section 02 -------------------- */
-import ClassCounter3 from './components/Section 02/07_ClassCounter3';
-import HookCounter5 from './components/Section 02/07_HookCounter5';
+// import ClassCounter3 from './components/Section 02/07_ClassCounter3';
+// import HookCounter5 from './components/Section 02/07_HookCounter5';
+import ClassCounter4 from './components/Section 02/08_ClassCounter4';
+import HookCounter6 from './components/Section 02/08_HookCounter6';
 
 function App() {
   return (
@@ -32,8 +34,11 @@ function App() {
 
       {/* -------------------- Section 02 -------------------- */}
       <>
-        <ClassCounter3 />
-        <HookCounter5 />
+        {/* <ClassCounter3 /> */}
+        {/* <HookCounter5 /> */}
+
+        <ClassCounter4 />
+        <HookCounter6 />
       </>
     </div>
   );
