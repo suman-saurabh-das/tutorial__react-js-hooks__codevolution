@@ -11,8 +11,10 @@ import React from 'react'
 /* -------------------- Section 02 -------------------- */
 // import ClassCounter3 from './components/Section 02/07_ClassCounter3';
 // import HookCounter5 from './components/Section 02/07_HookCounter5';
-import ClassCounter4 from './components/Section 02/08_ClassCounter4';
-import HookCounter6 from './components/Section 02/08_HookCounter6';
+// import ClassCounter4 from './components/Section 02/08_ClassCounter4';
+// import HookCounter6 from './components/Section 02/08_HookCounter6';
+import ClassMouse from './components/Section 02/09_ClassMouse';
+import HookMouse from './components/Section 02/09_HookMouse';
 
 function App() {
   return (
@@ -37,8 +39,11 @@ function App() {
         {/* <ClassCounter3 /> */}
         {/* <HookCounter5 /> */}
 
-        <ClassCounter4 />
-        <HookCounter6 />
+        {/* <ClassCounter4 /> */}
+        {/* <HookCounter6 /> */}
+
+        {/* <ClassMouse /> */}
+        <HookMouse />
       </>
     </div>
   );
