@@ -1,4 +1,5 @@
 /* [09] Run effects only once */
+/* [10] useEffect with Cleanup */
 
 import React, { Component } from 'react'
 
@@ -15,6 +16,11 @@ class ClassMouse extends Component {
   componentDidMount() {
     // We are setting up the event listener only once, in the componentDidMount() method
     window.addEventListener('mousemove', this.logMousePosition)
+  }
+
+  componentWillUnmount() {
+    // We are removing the listener once the component is unmounted
+    window.removeEventListener('mousemove', this.logMousePosition)
   }
 
   logMousePosition = (e) => {

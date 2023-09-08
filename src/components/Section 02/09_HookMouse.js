@@ -1,4 +1,5 @@
 /* [09] Run effects only once */
+/* [10] useEffect with Cleanup */
 
 import React, { useEffect, useState } from 'react'
 
@@ -9,6 +10,10 @@ function HookMouse() {
   useEffect(() => {
     console.log('useEffect called');
     window.addEventListener('mousemove', logMousePosition)
+
+    return () => {
+      window.removeEventListener('mousemove', logMousePosition)
+    }
   }, [])
 
   const logMousePosition = (e) => {

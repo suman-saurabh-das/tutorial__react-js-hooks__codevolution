@@ -13,8 +13,9 @@ import React from 'react'
 // import HookCounter5 from './components/Section 02/07_HookCounter5';
 // import ClassCounter4 from './components/Section 02/08_ClassCounter4';
 // import HookCounter6 from './components/Section 02/08_HookCounter6';
-import ClassMouse from './components/Section 02/09_ClassMouse';
-import HookMouse from './components/Section 02/09_HookMouse';
+// import ClassMouse from './components/Section 02/09_ClassMouse';
+// import HookMouse from './components/Section 02/09_HookMouse';
+import MouseContainer from './components/Section 02/10_MouseContainer';
 
 function App() {
   return (
@@ -43,7 +44,9 @@ function App() {
         {/* <HookCounter6 /> */}
 
         {/* <ClassMouse /> */}
-        <HookMouse />
+        {/* <HookMouse /> */}
+
+        <MouseContainer />
       </>
     </div>
   );
