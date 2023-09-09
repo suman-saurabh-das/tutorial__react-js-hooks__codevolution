@@ -18,7 +18,10 @@ import React from 'react'
 // import MouseContainer from './components/Section 02/10_MouseContainer';
 // import IntervalClassCounter from './components/Section 02/11_IntervalClassCounter';
 // import IntervalHookCounter from './components/Section 02/11_IntervalHookCounter';
-import DataFetching from './components/Section 02/12_DataFetching';
+// import DataFetching from './components/Section 02/12_DataFetching';
+
+/* -------------------- Section 03 -------------------- */
+import DataPassingUsingContext from './components/Section 03/14_DataPassingUsingContext';
 
 function App() {
   return (
@@ -29,7 +32,7 @@ function App() {
       <>
         {/* <ClassCounter1 /> */}
         {/* <HookCounter1 /> */}
-        
+
         {/* <ClassCounter2 /> */}
         {/* <HookCounter2 /> */}
 
@@ -54,7 +57,12 @@ function App() {
         {/* <IntervalClassCounter /> */}
         {/* <IntervalHookCounter /> */}
 
-        <DataFetching />
+        {/* <DataFetching /> */}
+      </>
+
+      {/* -------------------- Section 03 -------------------- */}
+      <>
+        <DataPassingUsingContext />
       </>
     </div>
   );
