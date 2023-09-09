@@ -18,6 +18,12 @@ React-JS Hooks Tutorial - by Codevolution
   - useState Hook with Objects and Arrays
 
 - Section 02
+  - Introduction to useEffect Hook, useEffect hook after render
+  - Conditionally run effects, Run effects only once
+  - useEffect with cleanup, useEffect with incorrect dependencies
+  - Fetching data with useEffect
+
+- Section 03
 
 ## Technologies
 
@@ -28,7 +34,7 @@ I have used `react.js`
 - download or clone the repository
   - run `npm run`
 - Additional Libraries
-  - NA
+  - axios | https://www.npmjs.com/package/axios
   
 ## Approach
 
