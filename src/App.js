@@ -21,7 +21,8 @@ import React from 'react'
 // import DataFetching from './components/Section 02/12_DataFetching';
 
 /* -------------------- Section 03 -------------------- */
-import DataPassingUsingContext from './components/Section 03/14_DataPassingUsingContext';
+// import DataPassingUsingContext from './components/Section 03/14_DataPassingUsingContext';
+import Counter1 from './components/Section 03/16_Counter1';
 
 
 function App() {
@@ -63,7 +64,9 @@ function App() {
 
       {/* -------------------- Section 03 -------------------- */}
       <>
-        <DataPassingUsingContext />
+        {/* <DataPassingUsingContext /> */}
+
+        <Counter1 />
       </>
     </div>
   );
