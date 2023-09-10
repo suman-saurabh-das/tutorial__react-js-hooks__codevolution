@@ -1,3 +1,5 @@
+/* [20] useReducer - Complex state and action */
+
 import React, { useReducer } from 'react'
 
 function Counter2() {
@@ -18,8 +20,8 @@ function Counter2() {
   const [counter, dispatch] = useReducer(reducer, initialState)
   return (
     <div>
-      <h3>Count 1 value - {counter.firstCount}</h3>
-      <h3>Count 2 value - {counter.secondCount}</h3>
+      <h3>Count 1 value : {counter.firstCount}</h3>
+      <h3>Count 2 value : {counter.secondCount}</h3>
       <button onClick={() => dispatch({ type: 'increment', value: 5 })}>Increment by 5</button>
       <button onClick={() => dispatch({ type: 'increment', value: 1 })}>Increment by 1</button>
       <button onClick={() => dispatch({ type: 'reset', value: 0 })}>Reset</button>
