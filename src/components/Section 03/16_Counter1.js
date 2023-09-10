@@ -15,7 +15,7 @@ function Counter1() {
   const [count, dispatch] = useReducer(reducer, initialState)
   return (
     <div>
-      <h3>Count - {count}</h3>
+      <h3>Count : {count}</h3>
       <button onClick={() => dispatch('increment')}>Increment</button>
       <button onClick={() => dispatch('reset')}>Reset</button>
       <button onClick={() => dispatch('decrement')}>Decrement</button>
