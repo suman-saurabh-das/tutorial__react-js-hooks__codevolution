@@ -24,7 +24,8 @@ import React from 'react'
 // import DataPassingUsingContext from './components/Section 03/14_DataPassingUsingContext';
 // import Counter1 from './components/Section 03/16_Counter1';
 // import Counter2 from './components/Section 03/17_Counter2';
-import Counter3 from './components/Section 03/18_Counter3';
+// import Counter3 from './components/Section 03/18_Counter3';
+import CounterContainer from './components/Section 03/19_CounterContainer';
 
 function App() {
   return (
@@ -69,7 +70,9 @@ function App() {
 
         {/* <Counter1 /> */}
         {/* <Counter2 /> */}
-        <Counter3 />
+        {/* <Counter3 /> */}
+
+        <CounterContainer />
       </>
     </div>
   );
