@@ -24,7 +24,7 @@ function DataFetching1() {
 
   return (
     <div>
-      {loading ? <h4>'Loading...'</h4> : <p>{post.title}</p>}
+      {loading ? <h4>Loading...</h4> : <p>{post.title}</p>}
       {errorMsg ? <h4>errorMsg</h4> : null}
     </div>
   )

@@ -24,6 +24,11 @@ React-JS Hooks Tutorial - by Codevolution
   - Fetching data with useEffect
 
 - Section 03
+  - useContext Hook & useReducer Hook
+  - useReducer with Simple state and action
+  - useReducer with Complex state and action
+  - Multiple useReducers, useReducer & useContext
+  - Fetching data with useState & useReducer
 
 ## Technologies
 
