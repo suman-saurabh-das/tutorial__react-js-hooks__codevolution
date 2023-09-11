@@ -25,7 +25,8 @@ import React from 'react'
 // import Counter1 from './components/Section 03/16_Counter1';
 // import Counter2 from './components/Section 03/17_Counter2';
 // import Counter3 from './components/Section 03/18_Counter3';
-import CounterContainer from './components/Section 03/19_CounterContainer';
+// import CounterContainer from './components/Section 03/19_CounterContainer';
+import DataFetching1 from './components/Section 03/20_DataFetching1';
 
 function App() {
   return (
@@ -72,7 +73,8 @@ function App() {
         {/* <Counter2 /> */}
         {/* <Counter3 /> */}
 
-        <CounterContainer />
+        {/* <CounterContainer /> */}
+        <DataFetching1 />
       </>
     </div>
   );
