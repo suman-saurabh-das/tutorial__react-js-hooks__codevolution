@@ -30,7 +30,7 @@ import React from 'react'
 // import DataFetching2 from './components/Section 03/21_DataFetching2';
 
 /* -------------------- Section 04 -------------------- */
-
+import ParentContainer from './components/Section 04/23_ParentContainer';
 
 function App() {
   return (
@@ -85,7 +85,7 @@ function App() {
 
       {/* -------------------- Section 04 -------------------- */}
       <>
-        
+        <ParentContainer />
       </>
     </div>
   );
