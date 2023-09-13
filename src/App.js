@@ -33,8 +33,8 @@ import React from 'react'
 // import ParentContainer from './components/Section 04/23_ParentContainer';
 // import Counter from './components/Section 04/24_Counter';
 // import FocusInput from './components/Section 04/25_FocusInput';
-import ClassTimer from './components/Section 04/26_ClassTimer';
-import HookTimer from './components/Section 04/26_HookTimer';
+// import ClassTimer from './components/Section 04/26_ClassTimer';
+// import HookTimer from './components/Section 04/26_HookTimer';
 
 function App() {
   return (
@@ -95,8 +95,8 @@ function App() {
 
         {/* <FocusInput /> */}
 
-        <ClassTimer />
-        <HookTimer />
+        {/* <ClassTimer /> */}
+        {/* <HookTimer /> */}
       </>
     </div>
   );
