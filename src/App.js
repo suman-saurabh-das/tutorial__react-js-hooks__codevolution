@@ -31,7 +31,8 @@ import React from 'react'
 
 /* -------------------- Section 04 -------------------- */
 // import ParentContainer from './components/Section 04/23_ParentContainer';
-import Counter from './components/Section 04/24_Counter';
+// import Counter from './components/Section 04/24_Counter';
+import FocusInput from './components/Section 04/25_FocusInput';
 
 function App() {
   return (
@@ -88,7 +89,9 @@ function App() {
       <>
         {/* <ParentContainer /> */}
         
-        <Counter />
+        {/* <Counter  */}
+
+        <FocusInput />
       </>
     </div>
   );
