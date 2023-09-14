@@ -35,8 +35,10 @@ import React from 'react'
 // import FocusInput from './components/Section 04/25_FocusInput';
 // import ClassTimer from './components/Section 04/26_ClassTimer';
 // import HookTimer from './components/Section 04/26_HookTimer';
-import DocTitle1 from './components/Section 04/28_DocTitle1';
-import DocTitle2 from './components/Section 04/28_DocTitle2';
+// import DocTitle1 from './components/Section 04/28_DocTitle1';
+// import DocTitle2 from './components/Section 04/28_DocTitle2';
+import Counter1 from './components/Section 04/29_Counter1';
+import Counter2 from './components/Section 04/29_Counter2';
 
 function App() {
   return (
@@ -100,8 +102,11 @@ function App() {
         {/* <ClassTimer /> */}
         {/* <HookTimer /> */}
 
-        <DocTitle1 />
-        <DocTitle2 />
+        {/* <DocTitle1 /> */}
+        {/* <DocTitle2 /> */}
+
+        <Counter1 />
+        <Counter2 />
       </>
     </div>
   );
