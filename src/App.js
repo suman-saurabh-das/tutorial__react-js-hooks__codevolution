@@ -37,8 +37,9 @@ import React from 'react'
 // import HookTimer from './components/Section 04/26_HookTimer';
 // import DocTitle1 from './components/Section 04/28_DocTitle1';
 // import DocTitle2 from './components/Section 04/28_DocTitle2';
-import Counter1 from './components/Section 04/29_Counter1';
-import Counter2 from './components/Section 04/29_Counter2';
+// import Counter1 from './components/Section 04/29_Counter1';
+// import Counter2 from './components/Section 04/29_Counter2';
+import UserForm from './components/Section 04/30_UserForm';
 
 function App() {
   return (
@@ -105,8 +106,10 @@ function App() {
         {/* <DocTitle1 /> */}
         {/* <DocTitle2 /> */}
 
-        <Counter1 />
-        <Counter2 />
+        {/* <Counter1 /> */}
+        {/* <Counter2 /> */}
+
+        <UserForm />
       </>
     </div>
   );

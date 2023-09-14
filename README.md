@@ -31,7 +31,9 @@ React-JS Hooks Tutorial - by Codevolution
   - Fetching data with useState & useReducer
 
 - Section 04
-  - 
+  - useState vs useReducer
+  - useCallback Hook & useMemo Hook
+  - useRefHook & Custom Hooks
 
 ## Technologies
 
@@ -53,7 +55,7 @@ All files have been created based on my understanding of the videos.
 
 ## Status
 
-- React JS Hooks is in progress.
+- React JS Hooks is completed.
 
 ## Credits
 
